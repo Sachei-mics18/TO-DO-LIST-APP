@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+body {
+    background-color: #D8BFD8;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Input-Task {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#TaskInput {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #D8BFD8;
+    background-color: #D8BFD8;
+    width: 100%;
+    outline: none;
+    margin-top: 15px;
+}
+#DateInput {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #D8BFD8;
+    width: 100%;
+    outline: none;
+    margin-top: 15px;
+}
+
+#AddTaskBtn {
+    display: inline-block;
+    padding: 8px;
+    border: none;
+    background-color: #D8BFD8;
+    box-shadow: 0 5px #999;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#AddTaskBtn:hover {
+    background-color: #D8BFD8;
+}
+    button:active {
+    background-color: #D8BFD8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table th,
+table td {
+    border: 1px solid #D8BFD8;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td a {
+    margin: 2px;
+    color: black;
+    cursor: pointer;
+    width: 50%;
+    border: 1px solid #D8BFD8;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+table td a:hover {
+  color: white;
+  background-color: blue;
+}
+
+table td a.Delete {
+    color: black;
+    border: 1px solid #D8BFD8;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+table td a.Delete:hover {
+    color: white;
+    background-color: red;
+}
+
+table td a.Save {
+    color: black;
+    border: 1px solid #D8BFD8;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+table td a.Save:hover {
+    color: white;
+    background-color: green ;
+}
